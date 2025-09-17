@@ -20,6 +20,9 @@ This project was part of the coursework for CSE 344 at the University of Washing
 - **Reservations:** reservations
 
 Run by starting the ssh tunnel:
+
 $ ./pgtunnel.sh
+
 and run:
+
 pgtunnel) mvn compile exec:java
