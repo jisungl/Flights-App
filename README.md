@@ -12,14 +12,14 @@ This project was part of the coursework for CSE 344 at the University of Washing
 - View all reservations on account with details of itineraries and payment status
 
 **Usage:**
-- **Create new user:** create <username> <password> <initial_balance>
-- **Login:** login <username> <password>
-- **Search:** search <origin city> <destination city> <direct> <day> <num itineraries>
-- **Book:** book <itinerary id>
-- **Pay:** pay <reservation id>
+- **Create new user:** create (username) (password) (initial_balance)
+- **Login:** login (username) (password)
+- **Search:** search (origin city) (destination city) (direct) (day) (num itineraries)
+- **Book:** book (itinerary id)
+- **Pay:** pay (reservation id)
 - **Reservations:** reservations
 
 Run by starting the ssh tunnel:
 $ ./pgtunnel.sh
 and run:
-pgtunnel> mvn compile exec:java
+pgtunnel) mvn compile exec:java
