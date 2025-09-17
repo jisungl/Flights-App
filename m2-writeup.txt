@@ -1,0 +1,21 @@
+1. 18 hours
+2. > 50%
+3. N/A
+4. The flight capacity check query used 'capacity' instead of 'num_seats' which caused errors.
+   I noticed from the test outputs that gave "column 'capacity' not found" errors. I joined Flights
+   and Aircraft_types and N_numbers to be able to reference num_seats. I had to fix this in my query
+   and also the checkFlightCapacity function. 
+   I found it convenient to actually read through the resulting errors in the terminal, seeing as they
+   often tell us exactly what is wrong. Always trace the join path in your queries since the tables and 
+   code have to be linked. Always verify queries evem if they don't crash the first time around
+
+5. 
+   i. W3Schools
+  ii. Stack Overflow
+ iii. section slides
+  iv. lecture slides
+
+   i. Stack Overflow
+  ii. lecture slides
+ iii. W3Schools
+  iv. section slides

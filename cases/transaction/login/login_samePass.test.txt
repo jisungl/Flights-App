@@ -1,0 +1,25 @@
+# commands:
+create user1 pw 1000
+login user1 pw
+quit
+*
+
+# expected output:
+Created user user1
+Logged in as user1
+Goodbye
+*
+
+##################### Terminal #2: #####################
+
+# commands:
+create user2 pw 1000
+login user2 pw
+quit
+*
+
+# expected output:
+Created user user2
+Logged in as user2
+Goodbye
+*

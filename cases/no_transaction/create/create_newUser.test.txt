@@ -1,0 +1,11 @@
+# Verify that we can successfully create a new user
+
+# commands:
+create testuser123 password123 1000
+quit
+*
+
+# expected output:
+Created user testuser123
+Goodbye
+*

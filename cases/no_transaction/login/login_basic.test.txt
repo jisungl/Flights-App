@@ -1,0 +1,13 @@
+# Verify that login works for a newly created user
+
+# commands:
+create test pass 500
+login test pass
+quit
+*
+
+# expected command output:
+Created user test
+Logged in as test
+Goodbye
+*
