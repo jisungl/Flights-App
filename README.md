@@ -21,7 +21,7 @@ Three custom tables support the booking system on top of the provided `Flights`,
 - **Itineraries** — day, total price, total duration, number of flights, and foreign keys to one or two flights
 - **Reservations** — reservation ID, payment status, and foreign keys to the user and itinerary
 
-## Implementation Details
+## Implementation
 
 **Search** queries for direct flights first, using parameterized SQL with multi-table joins across `Flights`, `N_Numbers`, and `Aircraft_Types` to retrieve seat capacity alongside flight details. If indirect flights are allowed and the direct result count is below the requested limit, a second query finds two-hop itineraries by joining `Flights` to itself on matching stopover cities and dates. Results are sorted by total duration, then by flight ID.
 
